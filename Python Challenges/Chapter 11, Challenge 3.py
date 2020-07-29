@@ -1,3 +1,5 @@
+import turtle
+t = turtle.Pen()
 def draw_star(size, points):
 	angle = 360 / points
 	for x in range(0, points):

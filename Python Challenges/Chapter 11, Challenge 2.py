@@ -1,3 +1,5 @@
+import turtle
+t = turtle.Pen()
 def myoctagon(size, filled):
 	if filled == True:
 		t.begin_fill()
