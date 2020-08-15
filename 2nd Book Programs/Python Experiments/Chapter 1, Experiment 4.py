@@ -1,0 +1,14 @@
+bill_total = input('What is the total on the bill?: ')
+tip_percent = input('What percent tip would you like to give?: ')
+sharing_number = input('How many people are sharing the bill?: ')
+bill_total = int(bill_total)
+tip_percent = int(tip_percent)
+sharing_number = int(sharing_number)
+tip_amount = bill_total * (percentage / 100)
+print('Tip amount =', tip_amount)
+total_amount = bill_total + tip_amount
+print('Total bill =',  total_amount)
+tip_per_person = tip_amount / sharing_number
+print('Tip amount per person =', tip_per_person)
+total_per_person = total_amount / sharing_number
+print('Total amount per person =', total_per_person)
