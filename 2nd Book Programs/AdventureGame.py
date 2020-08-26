@@ -111,7 +111,7 @@ if direction == 'north':
             print('You have won the game!')
     else:
             print('If you had a map, you could find your way. If you had a gokart, you could have rode home without getting tired.')
-            print('You lost the game.')
+            print('You have lost the game.')
             print('Try again...')
 elif direction == 'south':
     print('You come to a river with a broken bridge.')
@@ -142,7 +142,7 @@ elif direction == 'south':
             print('Yes, it takes double a\'s!')
             print('You take the old batteries out and cross your fingers it works.')
             print('You hit the gas and it goes.')
-            print('It\'s uncomfortable and looks funny, but at least it\'s a ride.')
+            print('It\'s uncomfortable, but at least it\'s a ride.')
             print('You drive around, looking for civilization.')
         elif item == 'rope':
             print('Oh yeah, you have a rope.')
@@ -159,7 +159,7 @@ elif direction == 'south':
             print('Suddenly, it disappears. You hear glass shattering and a cat meowing.')
             print('That was crazy!')
             print('You pick yourself up and keep on going.')
-        print('Soon, you come to White Gold Creek, California.')
+        print('Soon, you come to the town of White Gold Creek, California.')
         if item == map:
             print('You know it\'s called that from your map and the dusty sign.')
         else:
@@ -183,20 +183,93 @@ elif direction == 'south':
             drive = input('Will you drive it?: ')
             if drive == 'yes':
                 print('You drive it, crashing into a saloon and stirring up debris.')
-                print('Jeez, it\'s fast!')
+                print('Wow, it\'s fast!')
                 print('But luckily, you and the car are ok.')
                 print('From now on you\'ll drive it more carefully.')
                 print('Off in the distance, you see an abandoned airport.')
-            
-    
-         
-        
-            
-            
-            
-        
-
-    
-       
-       
-      
+                print('It looks like the runways would be a great place to drive this.')
+                print('You drive over to the airport.')
+                print('Then you start at the beginning of a runway.')
+                print('You hit the gas and keep stepping on it.')
+                print('It accelerates and keeps going.')
+                print('Suddenly, you hear a computerized voice.')
+                print('3...')
+                print('2...')
+                print('1...')
+                print('The rocket goes off!')
+                print('The Lamborghini gets launched into the sky!')
+                print('You are flying!')
+                print('It does a loop the loop and goes really fast, and the rocket falls off and keeps going. It then crash lands in a tree.')
+                print('Shaking, you climb down the tree,')
+                print('You see a scared cat on one of the branches.')
+                print('You want to help it, so you grab it.')
+                print('You continue climbing down.')
+                print('You get down.')
+                print('You see your house!')
+                print('You run there and give the cat some milk.')
+                print('You have won the game!')
+                print('But I wonder where that rocket went.')
+                print('In other news, a runaway rocket has hit the town of White Gold Creek!')
+            else:
+                print('This is probably someone else\'s.')
+                print('You shouldn\'t take it.')
+                print('You scramble out.')
+                print('What now?')
+                print('You go into the inn.')
+                print('You sleep on a bed and raid the minibar.')
+                print('You wake up refreshed.')
+                print('You see a road in the distance.')
+                print('You walk there and wait.')
+                print('You see an SUV driving up the road, and you know what you have to do.')
+                print('You jump on the bar on the back and ride the SUV.')
+                print('Your arms are getting tired, so you jump off.')
+                print('You see your house!')
+                print('You have won the game!')
+        else:
+            print('You leave the coin there for someone else to find.')
+            print('You see an inn, so you decide to rest there.')
+            print('You find the biggest bed there, and rest there.')
+            print('In the morning, you wake up ready to find your way back home.')
+            if item == 'map':
+                print('You go back to the Barbie car and drive out of there, making sure to load it with snacks.')
+                print('You keep driving until you come to a big hill.')
+                print('At the bottom, there is the top of a waterslide.')
+                print('You look closer, and there is a whole waterpark.')
+                print('You decide to drive down it because it looks like the bumps aren\'t too big.')
+                print('You drive down..')
+                print('Your car goes very fast, hits a small bump, and the engine sputters and dies.')
+                print('However, the car is still going.')
+                print('The car rolls over itself, ripping open the snack packs and banging you up.')
+                print('Crunch! The steering wheel falls off. You have no control!')
+                print('It keeps going, you try to stop it but fail, and then it starts driving right side up.')
+                print('You hold on tight, and the car sets itself on a crash course with the top of the slide.')
+                print('The car hits the lip of the slide and flips on its side.')
+                print('It goes down the slide -')
+                print('With you in it!')
+                print('You wake up, dizzy.')
+                print('What happened?')
+                print('You are in shallow water, and there is orange dust all over you.')
+                print('The bags and pieces of the snacks are floating around you.')
+                print('The car is smashed against a wall a few yards away from you, and pieces of it are floating in the water too.')
+                print('You see people looking at you, but only a few are there.')
+                print('They ask if you\'re ok.')
+                print('Suddenly, the manager comes running.')
+                print('You know because of the tag on his shirt. "Manager John".')
+                print('He looks angry!')
+                print('You run out of the waterpark, through the open gates.')
+                print('You see a pickup truck pulling out, and scramble into the bed.')
+                print('They drive for a while, and then you see your house!')
+                print('You jump out and run inside.')
+                print('You have won the game!')
+            else:
+                print('You sleep here for a while.')
+                print('Soon, you feel like you are ready for a journey back home.')
+                print('You find an old backpack, some batteries in a bag that says "Fresh Batteries", and take all the snacks in the minibar.')
+                print('You put the batteries and food in the backpack, and put it on your back.')
+                print('You are ready to go!')
+                print('You walk out of White Gold Creek, and walking through the woods you see a battery-powered skateboard.')
+                print('You put your batteries in it, and it works!')
+                print('You ride it for a long time, and you get to the town where you live.')
+                print('You keep riding, and you see your house!')
+                print('You have won the game!')
+                print('And now you can eat your snacks. Yummy!')
